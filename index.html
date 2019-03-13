@@ -3,10 +3,18 @@
     <script src="./node_modules/angular/angular.js"></script>
 </head>
 <body>
-<div ng-app>
-    <input type="text" ng-model="yourName" placeholder="type your name here"/>
-    <hr>
-    Hello, {{yourName}}!
+<div ng-app="app">
+    <div id="div1" ng-controller="Controller1">
+        Message1: {{message1}}
+        <div id="div2" ng-controller="Controller2">
+            Message2: {{message2}}
+            <button type="button" ng-click="broadcast()">broadcast</button>
+            <div id="div3" ng-controller="Controller3">
+                Message3: {{message3}}
+            </div>
+        </div>
+    </div>
 </div>
+<script src="./app.js"></script>
 </body>
 </html>

@@ -1,13 +1,9 @@
-AngularJS1 Hello World Demo
+AngularJS1 Scope "$broadcast" Demo
 ===========================
 
-[AngularJS1](https://angularjs.org/) is not dead yet.
+`$broadcast`将会把消息发布给自己以及自己的子scope。
 
 ```
 npm install
 open index.html
 ```
-
-Type your name in the text field, and see the changes.
-
-![demo](./images/demo.jpg)
