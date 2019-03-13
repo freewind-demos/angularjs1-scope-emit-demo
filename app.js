@@ -11,7 +11,7 @@ app.controller('Controller2', function ($scope) {
   $scope.message2 = '???'
   $scope.broadcast = () => {
     console.log('broadcasting...')
-    $scope.$broadcast('message', 'Hello, Angularjs')
+    $scope.$emit('message', 'Hello, Angularjs')
   }
   $scope.$on('message', (event, args) => {
     $scope.message2 = args;

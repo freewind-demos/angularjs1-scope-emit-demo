@@ -1,7 +1,7 @@
-AngularJS1 Scope "$broadcast" Demo
+AngularJS1 Scope "$emit" Demo
 ===========================
 
-`$broadcast`将会把消息发布给自己以及自己的子scope。
+`$emit`将会把消息发布给自己以及自己的父scope。
 
 ```
 npm install
