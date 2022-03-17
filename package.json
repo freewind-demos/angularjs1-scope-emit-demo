@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "demo": "open index.html"
+    "start": "open index.html"
   },
   "dependencies": {
     "angular": "1.7.7"
